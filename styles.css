@@ -227,7 +227,7 @@ main {
 }
 
 .section {
-  margin-top: 5em;
+  margin-top: 2em;
 }
 
 .section__title {
@@ -290,11 +290,13 @@ main {
 }
 
 .project {
-  padding: 2em;
+  padding: 1.5em; /* Adjusted padding */
   margin: 0 auto;
+  height: 450px;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  width: 300px; /* Adjusted width */
 }
 
 .project:hover {
@@ -302,14 +304,15 @@ main {
 }
 
 .project__description {
-  margin-top: 1em;
+  margin-top: 0.6em; /* Adjusted margin */
+  font-size: 0.8rem; /* Smaller font size */
 }
 
 .project__stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1.2em 0;
+  margin: 1em 0; /* Adjusted margin */
 }
 
 .project__stack-item {
@@ -320,8 +323,10 @@ main {
 }
 
 .project .link--icon {
-  margin-left: 0.5em;
+  margin-left: 1em; /* Adjusted margin */
+  font-size: 1.3rem; /* Bigger icon size */
 }
+
 
 .skills__list {
   max-width: 450px;
