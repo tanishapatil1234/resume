@@ -1,465 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/fa62c117c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles.css" />
-    <title>Tanisha Patil</title>
-  </head>
-  <body class="light" id="top">
-    <header class="header center">
-        <h3>
-            <a href="https://tanishapatil1234.github.io/resume" class="link">
-              <i class="fas fa-home"></i> <!-- Add this line -->
-            </a>
-          </h3>
-          
-
-      <nav class="nav center">
-        <ul class="nav__list center">
-            <li class="nav__list-item">
-              <a class="link link--nav" href="projects.html">Projects</a>
-            </li>
-            <li class="nav__list-item">
-              <a class="link link--nav" href="experience.html">Experiences</a>
-            </li>
-            <li class="nav__list-item">
-                <a class="link link--nav" href="blogs.html">Blogs</a>
-              </li>
-          </ul>
-
-        <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-        </button>
-
-        <button
-          type="button"
-          aria-label="toggle navigation"
-          class="btn btn--icon nav__hamburger"
-        >
-          <i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
-      </nav>
-    </header>
-<main>
- <!-- Projects -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
-        <div class="projects__grid">
-      
-        
-          <div class="project">
-            <h4>AP Score Predictor</h4>
-            <br></br>
-            <img src="img/forest.png" width="200" height="150">
-            <p class="project__description">
-              AP Score Predictor is a mini-project that takes in binary input of student indicators such as work_habits, attendance, and collaboration along with factors such as letter grade to creat Random Forest Association and predict AP Score!
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Data</li>
-              <li class="project__stack-item">Machine Learning</li>
-              <li class="project__stack-item">Random Forest</li>
-            </ul>
-  
-            <a
-              href="https://github.com/tanishapatil1234/test-fastpage-tp/blob/master/_notebooks/2023-14-07-apscoreprediction.ipynb"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            
-          </div>
-
-          <div class="project">
-            <h4>Pocket Therapist</h4>
-            <br></br>
-            <img src="img/pt.jpeg" width="200" height="150">
-            <p class="project__description">
-              Your Pocket Therapist uses an AI Face algorithm to accurately understand the user's emotions and provide advice/quotes in response. Credit to : Tanisha Patil, Vivian Ni
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Data</li>
-              <li class="project__stack-item">Machine Learning</li>
-              <li class="project__stack-item">Spring</li>
-            </ul>
-  
-            <a
-              href="https://github.com/vivianknee/PocketTherapist/issues/1"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            
-          </div>
-
-          <!--ML Fitness Project-->
-        <div class="project">
-          <h4>ML Fitness Project</h4>
-          <br></br>
-          <img src="img/fit.png" width="200" height="150">
-          <p class="project__description">
-          Machine learning exploration on fitness data and calorie prediction using pandas DF. This has many applications into real world situations of nutritionists and medical proffesionals. 
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Machine Learning</li>
-            <li class="project__stack-item">Data</li>
-            <li class="project__stack-item">Pandas</li>
-          </ul>
-
-          <a
-            href="https://github.com/nighthawkcoders/teacher_portfolio/blob/main/_notebooks/2024-03-05-DS-python-pandas-ml_fitness.ipynb"
-            aria-label="source code"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-
-
-           <!--Visual Tech-->
-        <div class="project">
-          <h4>ML Age/Gender Detector</h4>
-          <br></br>
-          <img src="img/ag.png" width="200" height="150">
-          <p class="project__description">
-          Exploration of CV and intersection with machine learning. This project predicts age and gender of the user based on 64 facial landmarks. Feel free to test the model!
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Machine Learning</li>
-            <li class="project__stack-item">Data</li>
-            <li class="project__stack-item">CV</li>
-          </ul>
-
-          <a
-            href="https://github.com/Codemaxxers/Issues/issues/83"
-            aria-label="source code"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a
-            href="https://codemaxxers.github.io/codemaxxerFrontend/login"
-            aria-label="live preview"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-
-          <div class="project">
-            <h4>KASM V2 User Management System</h4>
-            <br></br>
-            <img src="img/kflask.png" width="200" height="150">
-            <p class="project__description">
-            Developed frontend for user management as well as backend system seperate for admins and users. This management system is meant to ease the process of educators using KASM servers to aid students without access to personal devices in order to support their learning. 
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Flask</li>
-              <li class="project__stack-item">Data</li>
-              <li class="project__stack-item">Python</li>
-            </ul>
-  
-            <a
-              href="https://github.com/nighthawkcoders/kasmv2-flask"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-
-
-          <a
-          href="/img/TransitPhotometry.pdf"
-          aria-label="live preview"
-          class="link link--icon"
-        >
-          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-        </a>
-          
-        </div>
-
-
-
-        <!--BREAST CANCER BIOPSY-->
-        <div class="project">
-          <h4>Biopsy Classifier</h4>
-          <br></br>
-          <img src="img/bc.png" width="200" height="150">
-          <p class="project__description">
-          A regression model that can determine whether a breast cancer sample is malignant or benign.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Data</li>
-            <li class="project__stack-item">Machine Learning</li>
-            <li class="project__stack-item">Python</li>
-          </ul>
-
-          <a
-            href="https://github.com/tanishapatil1234/sourcecode-repo/blob/master/_notebooks/2023-04-02-Breast_Cancer_LR.ipynb"
-            aria-label="source code"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          
-        </div>
-          <!--Transit Photometry-->
-        <div class="project">
-            <h4>Transit Photometry</h4>
-            <br></br>
-            <img src="img/transit.png" width="200" height="150">
-            <p class="project__description">
-            Co-authored presentation, led team in creating 99.87% accurary c-neural network to predict transit photometry for exoplanet discovery. 
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">CNN</li>
-              <li class="project__stack-item">AI</li>
-              <li class="project__stack-item">Graphical Analysis</li>
-            </ul>
-  
-            <a
-              href="https://github.com/tanishapatil1234/sourcecode-repo/blob/master/_notebooks/2023-12-04-Transit_Photometry_Model.ipynb"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-
-            <a
-            href="/img/TransitPhotometry.pdf"
-            aria-label="live preview"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-            
-          </div>
-
-
-          
-          <!--GDP CO2-->
-        <div class="project">
-            <h4>GDP v. CO2</h4>
-            <br></br>
-            <img src="img/co2.png" width="200" height="150">
-            <p class="project__description">
-            Analysis on correlation between GDP & CO2 emissions to advocate for policies that address the impact of economic growth on the earth. 
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Data</li>
-              <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">Regression</li>
-            </ul>
-  
-            <a
-              href="https://github.com/tanishapatil1234/sourcecode-repo/blob/master/_notebooks/2023-03-21-GDP_vs_CO2.ipynb"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            
-          </div>
-        
-            <!--CHOROPLETH-->
-        <div class="project">
-          <h4>Choropleth</h4>
-          <br></br>
-          <img src="img/choro.png" width="200" height="150">
-          <p class="project__description">
-            App utilizes Python with Plotly and GeoJSON data to generate interactive choropleth map visualizing county unemployment rates.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Plotly</li>
-            <li class="project__stack-item">JSON</li>
-            <li class="project__stack-item">Python</li>
-          </ul>
-
-          <a
-            href="https://github.com/tanishapatil1234/choropleth"
-            aria-label="source code"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a
-            href="https://tanishapatil1234.github.io/choropleth/"
-            aria-label="live preview"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-        
-        <!--BAR-->
-
-        <div class="project">
-          <h4>Bar Chart</h4>
-          <br></br>
-          <img src="img/bar.png" width="200" height="150">
-          <p class="project__description">
-            This Python script visualizes historical JSON population data for Brazil using Plotly, showcasing data visualization and Python programming skills.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Plotly</li>
-            <li class="project__stack-item">JSON</li>
-            <li class="project__stack-item">Python</li>
-          </ul>
-
-          <a
-            href="https://github.com/tanishapatil1234/bar-chart"
-            aria-label="source code"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a
-            href="https://tanishapatil1234.github.io/bar-chart/"
-            aria-label="live preview"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-        <!---->
-
-        <!--SCATTER-->
-
-        <div class="project">
-            <h4>Scatter Plot</h4>
-            <br></br>
-            <img src="img/scatter.png" width="200" height="150">
-            <p class="project__description">
-                This project uses Python and Plotly to display interactive temperature/rainfall data, showcasing data visualization skills.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Plotly</li>
-              <li class="project__stack-item">JSON</li>
-              <li class="project__stack-item">Python</li>
-            </ul>
-  
-            <a
-              href="https://github.com/tanishapatil1234/scatter-plot"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://tanishapatil1234.github.io/scatter-plot/"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-          <!---->
-
-         <!--RANDOM QUOTE GENERATOR-->
-         <div class="project">
-            <h4>Random Quote </h4>
-            <br></br>
-            <img src="img/rqg.png" width="200" height="150">
-            <p class="project__description">
-              Generates random quotes from an API, showcasing skills in HTML, CSS, JavaScript, and API integration.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">API</li>
-              <li class="project__stack-item">JavaScript</li>
-            </ul>
-
-            <a
-              href="https://github.com/tanishapatil1234/random-quote-app"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://tanishapatil1234.github.io/random-quote-app/"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-         <!--POMODORO TIMER-->
-         <div class="project">
-          <h4>Pomodoro Timer</h4>
-          <br></br>
-          <img src="img/pomo.png" width="200" height="150">
-          <p class="project__description">
-            A Pomodoro Timer app used as a productivity tool using HTML, JavaScript, and CSS. I use this every day!
-          <ul class="project__stack">
-            <li class="project__stack-item">SASS</li>
-            <li class="project__stack-item">HTML</li>
-            <li class="project__stack-item">JavaScript</li>
-          </ul>
-
-          <a
-            href="https://github.com/tanishapatil1234/pomodoro-timer"
-            aria-label="source code"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a
-            href="https://tanishapatil1234.github.io/pomodoro-timer/"
-            aria-label="live preview"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-
-        <!--Typing Game-->
-        <div class="project">
-            <h4>Terminal Typing Game</h4>
-            <br></br>
-            <img src="img/type.png" width="200" height="150">
-            <p class="project__description">
-                This project is a typing game that calculates words per minute (WPM) within a 20-second timeframe, showcasing HTML, CSS, and JavaScript skills for web development.
-            <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">Event Handling</li>
-              <li class="project__stack-item">JavaScript</li>
-            </ul>
-  
-            <a
-              href="https://github.com/tanishapatil1234/typing-game"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://tanishapatil1234.github.io/typing-game/"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-         
-       
-    
-        </div>
-      </section>
-    </main>
-    </body>
-
-    <script src="./script.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Tanisha Patil</title>
+  <style>
+    .projects__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+  </style>
+</head>
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="https://tanishapatil1234.github.io/resume" class="link">
+        <i class="fas fa-home"></i>
+      </a>
+    </h3>
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="projects.html">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="experience.html">Experiences</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="blogs.html">Blogs</a>
+        </li>
+      </ul>
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <!-- Projects -->
+<section id="projects" class="section projects">
+  <h2 class="section__title">Projects</h2>
+  <div class="projects__grid">
+    <!-- Project 1 -->
+    <div class="project">
+      <h4>AP Score Predictor</h4>
+      <img src="img/forest.png" width="200" height="150">
+      <p class="project__description">
+        AP Score Predictor is a mini-project that takes in binary input of student indicators such as work habits, attendance, and collaboration along with factors such as letter grade to create Random Forest Association and predict AP Score!
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">Data</li>
+        <li class="project__stack-item">Machine Learning</li>
+        <li class="project__stack-item">Random Forest</li>
+      </ul>
+      <a href="https://github.com/tanishapatil1234/test-fastpage-tp/blob/master/_notebooks/2023-14-07-apscoreprediction.ipynb" aria-label="source code" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Project 2 -->
+    <div class="project">
+      <h4>Pocket Therapist</h4>
+      <img src="img/pt.jpeg" width="200" height="150">
+      <p class="project__description">
+        Your Pocket Therapist uses an AI Face algorithm to accurately understand the user's emotions and provide advice/quotes in response. Credit to: Tanisha Patil, Vivian Ni
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">Data</li>
+        <li class="project__stack-item">Machine Learning</li>
+        <li class="project__stack-item">Spring</li>
+      </ul>
+      <a href="https://github.com/vivianknee/PocketTherapist/issues/1" aria-label="source code" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Project 3 -->
+    <div class="project">
+      <h4>ML Fitness Project</h4>
+      <img src="img/fit.png" width="200" height="150">
+      <p class="project__description">
+        Machine learning exploration on fitness data and calorie prediction using pandas DF. This has many applications into real-world situations of nutritionists and medical professionals.
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">Machine Learning</li>
+        <li class="project__stack-item">Data</li>
+        <li class="project__stack-item">Pandas</li>
+      </ul>
+      <a href="https://github.com/nighthawkcoders/teacher_portfolio/blob/main/_notebooks/2024-03-05-DS-python-pandas-ml_fitness.ipynb" aria-label="source code" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Project 4 -->
+    <div class="project">
+      <h4>ML Age/Gender Detector</h4>
+      <img src="img/ag.png" width="200" height="150">
+      <p class="project__description">
+        Exploration of CV and intersection with machine learning. This project predicts age and gender of the user based on 64 facial landmarks. Feel free to test the model!
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">Machine Learning</li>
+        <li class="project__stack-item">Data</li>
+        <li class="project__stack-item">CV</li>
+      </ul>
+      <a href="https://github.com/Codemaxxers/Issues/issues/83" aria-label="source code" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-github"></i>
+      </a>
+      <a href="https://codemaxxers.github.io/codemaxxerFrontend/login" aria-label="live preview" class="link link--icon">
+        <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+    <!-- Project 5 -->
+    <div class="project">
+      <h4>KASM V2 User Management System</h4>
+      <img src="img/kflask.png" width="200" height="150">
+      <p class="project__description">
+        Developed frontend for user management as well as backend system separate for admins and users. This management system is meant to ease the process of educators using KASM servers to aid students without access to personal devices in order to support their learning.
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">Flask</li>
+        <li class="project__stack-item">Data</li>
+        <li class="project__stack-item">Python</li>
+      </ul>
+      <a href="https://github.com/nighthawkcoders/kasmv2-flask" aria-label="source code" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-github"></i>
+      </a>
+      <a href="/img/TransitPhotometry.pdf" aria-label="live preview" class="link link--icon">
+        <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+    <!-- Project 6 -->
+    <div class="project">
+      <h4>Biopsy Classifier</h4>
+      <img src="img/bc.png" width="200" height="150">
+      <p class="project__description">
+        A regression model that can determine whether a breast cancer sample is malignant or benign.
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">Data</li>
+        <li class="project__stack-item">Machine Learning</li>
+        <li class="project__stack-item">Python</li>
+      </ul>
+      <a href="https://github.com/tanishapatil1234/sourcecode-repo/blob/master/_notebooks/2023-04-02-Breast_Cancer_LR.ipynb" aria-label="source code" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Project 7 -->
+    <div class="project">
+      <h4>Transit Photometry</h4>
+      <img src="img/transit.png" width="200" height="150">
+      <p class="project__description">
+        Co-authored presentation, led team in creating 99.87% accuracy C-neural network
+        to predict transit photometry for exoplanet discovery.
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">CNN</li>
+        <li class="project__stack-item">AI</li>
+        <li class="project__stack-item">Graphical Analysis</li>
+      </ul>
+      <a href="https://github.com/tanishapatil1234/sourcecode-repo/blob/master/_notebooks/2023-12-04-Transit_Photometry_Model.ipynb" aria-label="source code" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-github"></i>
+      </a>
+      <a href="/img/TransitPhotometry.pdf" aria-label="live preview" class="link link--icon">
+        <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+    <!-- Project 8 -->
+    <div class="project">
+      <h4>GDP v. CO2</h4>
+      <img src="img/co2.png" width="200" height="150">
+      <p class="project__description">
+        Analysis on correlation between GDP & CO2 emissions to advocate for policies that address the impact of economic growth on the earth.
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">Data</li>
+        <li class="project__stack-item">Python</li>
+        <li class="project__stack-item">Regression</li>
+      </ul>
+      <a href="https://github.com/tanishapatil1234/sourcecode-repo/blob/master/_notebooks/2023-03-21-GDP_vs_CO2.ipynb" aria-label="source code" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Project 9 -->
+    <div class="project">
+      <h4>Choropleth</h4>
+      <img src="img/choro.png" width="200" height="150">
+      <p class="project__description">
+        App utilizes Python with Plotly and GeoJSON data to generate an interactive choropleth map visualizing county unemployment rates.
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">Plotly</li>
+        <li class="project__stack-item">JSON</li>
+        <li class="project__stack-item">Python</li>
+      </ul>
+      <a href="https://github.com/tanishapatil1234/choropleth" aria-label="source code" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-github"></i>
+      </a>
+      <a href="https://tanishapatil1234.github.io/choropleth/" aria-label="live preview" class="link link--icon">
+        <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
